@@ -17,8 +17,8 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background: url('background.jpg') no-repeat center center;
       background-size: contain;
-      background-color: #000;
       background-attachment: fixed;
+      background-color: #000;
       color: #fff;
       text-align: center;
       overflow-x: hidden;
@@ -44,17 +44,19 @@
     }
 
     .instructions {
-      margin-top: 50px;
+      margin-top: 40px;
       font-size: 18px;
       line-height: 1.6;
-      max-width: 90%;
       padding: 20px;
-      background: rgba(0, 0, 0, 0.5); /* translucent black background */
+      max-width: 600px;
+      width: 90%;
+      background: rgba(0, 0, 0, 0.5);
       border-radius: 12px;
-      backdrop-filter: blur(4px);     /* optional: glassy effect */
+      backdrop-filter: blur(4px);
       text-shadow: 1px 1px 3px #000;
-	  margin-left: auto;
-	  margin-right: auto;
+      margin-left: auto;
+      margin-right: auto;
+      box-sizing: border-box;
     }
 
     @media (max-width: 768px) {
@@ -70,6 +72,7 @@
 
       .instructions {
         font-size: 16px;
+        padding: 16px;
         margin-top: 40px;
       }
     }
@@ -83,6 +86,7 @@
       .instructions {
         font-size: 15px;
         line-height: 1.4;
+        padding: 14px;
         margin-top: 30px;
       }
     }
@@ -92,9 +96,8 @@
   <div class="container">
     <iframe src="https://scratch.mit.edu/projects/1195417130/embed" allowtransparency="true" scrolling="no" allowfullscreen></iframe>
     <div class="instructions">
-      Explora este labirinto mágico e encontra o tesouro escondido no centro!<br>
-      Guia o Pico-Pico com a ajuda dos teus dedos, com o teu rato de computador ou com as teclas direcionais do teu teclado e traça o caminho certo.<br>
-      <strong>Boa sorte!</strong>
+      Controla o Pico-Pico com o toque, o rato de computador<br>ou com as teclas direcionais do teclado e leva-o até ao tesouro!!<br>
+      <strong>Boa sorte!</strong><br><a href="https://www.instagram.com/1pico_pico.pico/" target="_blank" rel="noopener noreferrer" style="color: yellow;">Visita-me no Instagram</a>
     </div>
   </div>
 </body>
